@@ -1,0 +1,8 @@
+Feature: Ecommerce validation
+
+    Scenario: Place the order
+        Given login with the valid "nemalisachin222@gmail.com" and "Qwert@123"
+        When Add "ZARA COAT 3" to the cart
+        Then verify the product is displayed in the cart
+        When enter the valid details and place order
+        Then verify whether the order is place in the order history

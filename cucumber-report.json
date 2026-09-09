@@ -1,0 +1,221 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-validation;place-the-order",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Place the order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1983684500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login with the valid \"nemalisachin222@gmail.com\" and \"Qwert@123\"",
+            "match": {
+              "location": "features\\step definitions\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20120386198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Add \"ZARA COAT 3\" to the cart",
+            "match": {
+              "location": "features\\step definitions\\steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1669893898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verify the product is displayed in the cart",
+            "match": {
+              "location": "features\\step definitions\\steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 930221499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "enter the valid details and place order",
+            "match": {
+              "location": "features\\step definitions\\steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810304899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify whether the order is place in the order history",
+            "match": {
+              "location": "features\\step definitions\\steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2669603899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 489600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecommerce-validation;place-the-order",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Place the order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1989118100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "login to commerce application with the valid \"nemalisachin222@gmail.com\" and \"Qwert@121\"",
+            "match": {
+              "location": "features\\step definitions\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26975373898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "verify error message is displayed",
+            "match": {
+              "location": "features\\step definitions\\steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1944881997
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2542199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validation",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecommerce-validation;place-the-order",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Place the order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 908504300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "login to commerce application with the valid \"nemalisachin222+1@gmail.com\" and \"Qwert@122\"",
+            "match": {
+              "location": "features\\step definitions\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15649109598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "verify error message is displayed",
+            "match": {
+              "location": "features\\step definitions\\steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2340954399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 239800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validation",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce validation",
+    "tags": [],
+    "uri": "features\\errorvalidation.feature"
+  }
+]
