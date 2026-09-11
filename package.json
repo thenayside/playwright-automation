@@ -5,7 +5,7 @@
   "scripts": {
     "uniqueselector": "npx playwright test tests/uniqueselector.spec.js",
     "uibase": "npx playwright test tests/UIbase.spec.js",
-    "morevalidation": "npx playwright test tests/UIbase.spec.js"
+    "morevalidation": "npx playwright test tests/morevalidation.spec.js"
   },
   "keywords": [],
   "author": "",

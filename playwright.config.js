@@ -25,9 +25,13 @@ module.exports = defineConfig({
         headless: true, // Optional
         screenshot: "on",
         trace: "on", //retain-on-failure','off'
+        video: "retain-on-failure",
         // viewport:{width:800,height:800},
       },
     },
+
+
+  
     //   {
     //     name:"safari",
     //       use: {

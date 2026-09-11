@@ -1,7 +1,7 @@
 import {test,expect} from "@playwright/test";
 
 
-test.only("end to end web automation",async ({page})=>{
+test("end to end web automation",async ({page})=>{
     const products = page.locator(".card-body");
     const productName = "ZARA COAT 3";
     const email ="nemalisachin222@gmail.com";
