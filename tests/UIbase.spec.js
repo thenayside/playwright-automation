@@ -142,7 +142,7 @@ for(let i=0; i< await rowCount.count();++i){
 
 const orderiddetails = await page.locator(".col-text").textContent();
 expect(order_id.includes(orderiddetails)).toBeTruthy();
-await page.pause();
+//await page.pause();
 
    
 
