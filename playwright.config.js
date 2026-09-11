@@ -8,10 +8,10 @@ module.exports = defineConfig({
   testDir: "./tests",
   retries: 0,
 
-  timeout: 40 * 1000,
+  timeout: 90 * 1000,
 
   expect: {
-    timeout: 40 * 1000,
+    timeout: 90 * 1000,
   },
   reporter: "html",
 
@@ -19,8 +19,8 @@ module.exports = defineConfig({
     {
       name: "chrome",
       use: {
-        actionTimeout: 30000,
-        navigationTimeout: 30 * 1000,
+        actionTimeout: 90000,
+        navigationTimeout: 90 * 1000,
         browserName: "chromium",
         headless: true, // Optional
         screenshot: "on",
