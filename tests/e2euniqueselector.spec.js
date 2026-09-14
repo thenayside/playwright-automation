@@ -25,5 +25,6 @@ await expect(page.locator('.user__name [type="text"]').first()).toHaveText(email
 await page.getByText("PLACE ORDER").click(); 
 // const orderConfirmation = await page.locator(".hero-primary").waitFor();
 await expect(page.getByText(" Thankyou for the order. ")).toBeVisible();
+//test pull request
 
 });

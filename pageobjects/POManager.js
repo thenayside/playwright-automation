@@ -1,4 +1,4 @@
-const LoginPage = require('./LoginPage');
+const {LoginPage} = require('./LoginPage');
 const {DashboardPage} = require('./DashboardPage');
 const{cartPage} = require('./cartPage');
 const{CheckoutPage} = require('./CheckoutPage');
